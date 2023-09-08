@@ -13,6 +13,7 @@ Tab completion for `kubectl` allows for faster and more efficient interaction wi
 1. **Download the `kubectl` Completion Script**
 
    mkdir -p ~/.kube/completion
+   
    kubectl completion bash > ~/.kube/completion/kubectl
 
 2- **Add the Completion Script Source Line**
