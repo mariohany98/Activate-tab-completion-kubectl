@@ -24,4 +24,5 @@ Tab completion for `kubectl` allows for faster and more efficient interaction wi
 
 ## Note
 **For helm use the following command**
+
          echo 'source <(helm completion bash)' >> ~/.bashrc
