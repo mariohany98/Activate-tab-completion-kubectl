@@ -10,20 +10,18 @@ Tab completion for `kubectl` allows for faster and more efficient interaction wi
 
 ## Instructions
 
-1. **Download the `kubectl` Completion Script**
+1- **Run the following command**
    
-      mkdir -p ~/.kube/completion
-      
-      kubectl completion bash > ~/.kube/completion/kubectl
-
-2- **Add the Completion Script Source Line**
+        echo 'source <(kubectl completion bash)' >> ~/.bashrc
    
-        source ~/.kube/completion/kubectl
-   
-3- **Reload Your Shell Configuration**
+2- **Reload Your Shell Configuration**
    
         source ~/.bashrc
    
-4- **Test Tab Completion**
+3- **Test Tab Completion**
    
         kubectl
+
+## Note
+**For helm use the following command**
+         echo 'source <(helm completion bash)' >> ~/.bashrc
